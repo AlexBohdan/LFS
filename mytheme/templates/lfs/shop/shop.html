@@ -1,0 +1,624 @@
+{% extends "lfs/base.html" %}
+{% load static %}
+{% load i18n %}
+{% block head %}
+    {% if SHOP.get_meta_keywords %}
+        <meta name="keywords" content="{{ SHOP.get_meta_keywords }}"/>
+    {% endif %}
+    {% if SHOP.get_meta_description %}
+        <meta name="description" content="{{ SHOP.get_meta_description }}"/>
+    {% endif %}
+{% endblock %}
+{% block content %}
+    <div class="main">
+        <div class="container">
+            <div class="header-page">
+                <h1>SHOP</h1>
+            </div>
+            <!-- /.header-page -->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="sidebar">
+                        <aside class="widget">
+                            <h4 class="widget-title">FILTER BY PRICE</h4>
+                            <div class="options-price">
+                                <div id="price-slider"></div>
+                                <div class="price-range">
+                                    <label for="amount">PRICE:</label>
+                                    <input type="text" id="amount" readonly/>
+                                </div>
+                                <button class="filter-price-btn">Filter</button>
+                            </div>
+                        </aside>
+                        <aside class="widget">
+                            <h4 class="widget-title">CATEGORY</h4>
+                            <ul class="ul-sidebar">
+                                <li>
+                                    <a href="parallax-category-shop.html">
+                                        MEN’S CLOTHING
+                                        <span>(50)</span>
+                                    </a>
+                                    <ul class="children">
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Hoodies & Sweatshirts
+                                                <span>(15)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Jackets & Coats
+                                                <span>(7)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Pants & Chinos
+                                                <span>(25)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                T-Shirts & Tanks
+                                                <span>(13)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="parallax-category-shop.html">
+                                        WOMEN’S CLOTHING
+                                        <span>(75)</span>
+                                    </a>
+                                    <ul class="children">
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Coats & Jackets
+                                                <span>(15)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Dresses
+                                                <span>(20)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Hoodies & Sweatshirts
+                                                <span>(5)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="parallax-category-shop.html">
+                                                Tops
+                                                <span>(27)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="parallax-category-shop.html">
+                                        ACCESSORIES
+                                        <span>(15)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="parallax-category-shop.html">
+                                        BOOKS & DVDS
+                                        <span>(21)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="parallax-category-shop.html">
+                                        GADGETS
+                                        <span>(9)</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="widget">
+                            <h4 class="widget-title">FILTER BY COLOR</h4>
+                            <ul class="ul-sidebar">
+                                <li>
+                                    <a href="#">
+                                        Black
+                                        <span>(50)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Red
+                                        <span>(15)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Yellow
+                                        <span>(7)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Blue
+                                        <span>(25)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Green
+                                        <span>(13)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Gray
+                                        <span>(75)</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="widget">
+                            <h4 class="widget-title">FILTER BY SIZE</h4>
+                            <ul class="ul-sidebar">
+                                <li>
+                                    <a href="#">
+                                        One Size Fit All
+                                        <span>(50)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Extra Small
+                                        <span>(15)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Small
+                                        <span>(7)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Medium
+                                        <span>(25)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Large
+                                        <span>(13)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Extra Large
+                                        <span>(75)</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <!-- /.sidebar -->
+                </div>
+                <div class="col-md-9">
+                    <div class="main-content">
+                        <div class="top-products">
+                            <div class="showing-results">
+                                SHOWING 1–9 OF 100 RESULTS
+                            </div>
+                            <div class="sortby">
+                                <select class="custom-select">
+                                    <option value="0">DEFAULT SORTING</option>
+                                    <option value="1">Price: Lowest First</option>
+                                    <option value="2">Price: Highest First</option>
+                                    <option value="3">Best seller</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box-product row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-1.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-1-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">HANDMADE FLARED JACKET</a>
+                                    </h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-3.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-3-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">UTILITY JACKET</a></h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item has-deal">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-3.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-3-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="countdown" data-time="2015/09/06"></div>
+                                        <div class="product-new">
+                                            NEW
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">UTILITY JACKET</a></h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-2.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-2-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="product-new">
+                                            NEW
+                                        </div>
+                                        <div class="product-sale">
+                                            -25%
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">COAT WITH WOOL WRAPAROUND
+                                        COLLAR</a></h4>
+                                    <p class="product-price">
+                                        <ins><span class="amount">100.99 USD</span></ins>
+                                        <del><span class="amount">189.99 USD</span></del>
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-4.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-4-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">ANIMAL PRINT COAT</a></h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-5.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-5-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">HANDMADE FLARED JACKET</a>
+                                    </h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-6.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-6-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">UTILITY JACKET</a></h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-7.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-7-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="product-new">
+                                            NEW
+                                        </div>
+                                        <div class="product-sale">
+                                            -25%
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">COAT WITH WOOL WRAPAROUND
+                                        COLLAR</a></h4>
+                                    <p class="product-price">
+                                        <ins><span class="amount">100.99 USD</span></ins>
+                                        <del><span class="amount">189.99 USD</span></del>
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="product-item">
+                                    <div class="product-thumb">
+                                        <div class="main-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-8.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <div class="overlay-img">
+                                            <a href="single-product.html">
+                                                <img class="img-responsive"
+                                                     src="{% get_media_prefix %}mytheme/assets/images/product-img-8-thumb.jpg"
+                                                     alt="img"/>
+                                            </a>
+                                        </div>
+                                        <a href="single-product.html" class="details"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <h4 class="product-name"><a href="single-product.html">ANIMAL PRINT COAT</a></h4>
+                                    <p class="product-price">
+                                        189.99 USD
+                                    </p>
+                                    <div class="group-buttons">
+                                        <button type="button" class="add-to-cart" data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Add to Cart">
+                                            <span>Add to Cart</span>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Compare this Product">
+                                            <i class="pe-7s-repeat"></i>
+                                        </button>
+                                        <button type="button" data-toggle="tooltip" data-placement="top"
+                                                title="Add to Wishlist">
+                                            <i class="pe-7s-like"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-product -->
+                        <nav class="pagination">
+                            <ul class="page-numbers">
+                                <li><a href="#">1</a></li>
+                                <li><span class="current">2</span></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a class="last " href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </nav>
+                        <!-- /.pagination -->
+                    </div>
+                    <!-- /.main-content -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.main -->
+{% endblock %}

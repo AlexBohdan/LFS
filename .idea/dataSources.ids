@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - db.sqlite3" uuid="d4560b3e-d18f-4111-8187-4a947907a76f">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="addresses_address" schema="" catalog="" type="TABLE">
+      <column name="baseaddress_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="company_name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="phone" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR(254)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="baseaddress_ptr_id"/>
+      <foreign-key name="#FAKE_addresses_address_1" columns="baseaddress_ptr_id" ref-table="addresses_baseaddress" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="addresses_baseaddress" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="firstname" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="lastname" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="line1" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="line2" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="zip_code" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="city" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="state" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="created" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="modified" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="country_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="customer_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="order_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_addresses_baseaddress_1" columns="order_id" ref-table="order_order" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_addresses_baseaddress_2" columns="customer_id" ref-table="customer_customer" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_addresses_baseaddress_3" columns="country_id" ref-table="core_country" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="addresses_baseaddress_69dfcb07" unique="true" columns="order_id"/>
+      <index name="addresses_baseaddress_cb24373b" unique="true" columns="customer_id"/>
+      <index name="addresses_baseaddress_93bfec8a" unique="true" columns="country_id"/>
+    </table>
+    <table name="auth_group" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="auth_group_permissions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_group_permissions_1" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_group_permissions_2" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_group_permissions_8373b171" unique="true" columns="permission_id"/>
+      <index name="auth_group_permissions_0e939a4f" unique="true" columns="group_id"/>
+      <index name="auth_group_permissions_group_id_0cd325b0_uniq" unique="true" columns="group_id,permission_id"/>
+    </table>
+    <table name="auth_permission" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="codename" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_permission_1" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_permission_417f1b1c" unique="true" columns="content_type_id"/>
+      <index name="auth_permission_content_type_id_01ab375a_uniq" unique="true" columns="content_type_id,codename"/>
+    </table>
+    <table name="auth_user" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="password" sqlType="VARCHAR(128)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="last_login" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="is_superuser" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="first_name" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR(254)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="is_staff" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="is_active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="date_joined" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="username" sqlType="VARCHAR(150)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="auth_user_groups" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_user_groups_1" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_user_groups_2" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_user_groups_0e939a4f" unique="true" columns="group_id"/>
+      <index name="auth_user_groups_e8701ad4" unique="true" columns="user_id"/>
+      <index name="auth_user_groups_user_id_94350c0c_uniq" unique="true" columns="user_id,group_id"/>
+    </table>
+    <table name="auth_user_user_permissions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_user_user_permissions_1" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_user_user_permissions_2" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_user_user_permissions_8373b171" unique="true" columns="permission_id"/>
+      <index name="auth_user_user_permissions_e8701ad4" unique="true" columns="user_id"/>
+      <index name="auth_user_user_permissions_user_id_14a6b632_uniq" unique="true" columns="user_id,permission_id"/>
+    </table>
+    <table name="cart_cart" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="session" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="modification_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_cart_cart_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="cart_cart_e8701ad4" unique="true" columns="user_id"/>
+    </table>
+    <table name="cart_cartitem" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="amount" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="modification_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="cart_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_cart_cartitem_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_cart_cartitem_2" columns="cart_id" ref-table="cart_cart" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="cart_cartitem_9bea82de" unique="true" columns="product_id"/>
+      <index name="cart_cartitem_c44d83f7" unique="true" columns="cart_id"/>
+    </table>
+    <table name="cart_cartitempropertyvalue" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="cart_item_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_cart_cartitempropertyvalue_1" columns="property_group_id" ref-table="catalog_propertygroup" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_cart_cartitempropertyvalue_2" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_cart_cartitempropertyvalue_3" columns="cart_item_id" ref-table="cart_cartitem" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="cart_cartitempropertyvalue_b72eb5e9" unique="true" columns="property_group_id"/>
+      <index name="cart_cartitempropertyvalue_6bb837ff" unique="true" columns="property_id"/>
+      <index name="cart_cartitempropertyvalue_31954a1f" unique="true" columns="cart_item_id"/>
+    </table>
+    <table name="catalog_category" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="show_all_products" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="short_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="exclude_from_navigation" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="template" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="active_formats" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_rows" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_cols" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="category_cols" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="meta_title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_keywords" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="level" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="uid" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="static_block_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="image" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="parent_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_category_1" columns="parent_id" ref-table="catalog_category" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_category_2" columns="static_block_id" ref-table="catalog_staticblock" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_category_6be37982" unique="true" columns="parent_id"/>
+      <index name="catalog_category_0b071eca" unique="true" columns="static_block_id"/>
+    </table>
+    <table name="catalog_category_products" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="category_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_category_products_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_category_products_2" columns="category_id" ref-table="catalog_category" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="catalog_deliverytime" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="min" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="max" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="unit" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="catalog_file" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="content_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="position" sqlType="SMALLINT" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="file" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_file_1" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_file_417f1b1c" unique="true" columns="content_type_id"/>
+      <index name="catalog_file_2dbcba41" unique="true" columns="slug"/>
+    </table>
+    <table name="catalog_filterstep" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="start" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_filterstep_1" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_filterstep_6bb837ff" unique="true" columns="property_id"/>
+    </table>
+    <table name="catalog_groupspropertiesrelation" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_groupspropertiesrelation_1" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_groupspropertiesrelation_2" columns="group_id" ref-table="catalog_propertygroup" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_groupspropertiesrelation_6bb837ff" unique="true" columns="property_id"/>
+      <index name="catalog_groupspropertiesrelation_0e939a4f" unique="true" columns="group_id"/>
+      <index name="catalog_groupspropertiesrelation_group_id_b16de3c7_uniq" unique="true" columns="group_id,property_id"/>
+    </table>
+    <table name="catalog_image" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="image" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="position" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="alt" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_image_1" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_image_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="catalog_product" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(120)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="sku" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="price_calculator" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="effective_price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="price_unit" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="unit" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="short_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_title" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_keywords" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="for_sale" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="for_sale_price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="deliverable" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="manual_delivery_time" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="ordered_at" sqlType="DATE" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="manage_stock_amount" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="stock_amount" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="active_packing_unit" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="packing_unit" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="packing_unit_unit" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="weight" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="height" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="length" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="width" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="sub_type" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="category_variant" sqlType="SMALLINT" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="variants_display_type" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="variant_position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_name" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_sku" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_short_description" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_static_block" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_description" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_price" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_for_sale" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_for_sale_price" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_images" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_related_products" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_accessories" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_meta_title" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_meta_description" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_meta_keywords" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_dimensions" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="template" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="active_price_calculation" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price_calculation" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="active_base_price" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="base_price_unit" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="base_price_amount" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="sku_manufacturer" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="type_of_quantity_field" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="uid" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="delivery_time_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="manufacturer_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="order_time_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="static_block_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="supplier_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="tax_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="default_variant_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="parent_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_product_1" columns="parent_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_2" columns="default_variant_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_3" columns="tax_id" ref-table="tax_tax" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_4" columns="supplier_id" ref-table="supplier_supplier" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_5" columns="static_block_id" ref-table="catalog_staticblock" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_6" columns="order_time_id" ref-table="catalog_deliverytime" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_7" columns="manufacturer_id" ref-table="manufacturer_manufacturer" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_8" columns="delivery_time_id" ref-table="catalog_deliverytime" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_product_6be37982" unique="true" columns="parent_id"/>
+      <index name="catalog_product_d21968a8" unique="true" columns="default_variant_id"/>
+      <index name="catalog_product_59fc14e7" unique="true" columns="tax_id"/>
+      <index name="catalog_product_c5bcd634" unique="true" columns="supplier_id"/>
+      <index name="catalog_product_0b071eca" unique="true" columns="static_block_id"/>
+      <index name="catalog_product_25d6926f" unique="true" columns="order_time_id"/>
+      <index name="catalog_product_4d136c4a" unique="true" columns="manufacturer_id"/>
+      <index name="catalog_product_f0bc8d5b" unique="true" columns="delivery_time_id"/>
+    </table>
+    <table name="catalog_product_related_products" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="from_product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="to_product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_product_related_products_1" columns="to_product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_product_related_products_2" columns="from_product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="catalog_productaccessories" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="quantity" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="accessory_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_productaccessories_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_productaccessories_2" columns="accessory_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_productaccessories_9bea82de" unique="true" columns="product_id"/>
+      <index name="catalog_productaccessories_e5ed8fc0" unique="true" columns="accessory_id"/>
+    </table>
+    <table name="catalog_productattachment" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="file" sqlType="VARCHAR(500)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_productattachment_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_productattachment_9bea82de" unique="true" columns="product_id"/>
+    </table>
+    <table name="catalog_productpropertyvalue" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="parent_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="value" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="value_as_float" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="type" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_productpropertyvalue_1" columns="property_group_id" ref-table="catalog_propertygroup" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_productpropertyvalue_2" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_productpropertyvalue_3" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_productpropertyvalue_b72eb5e9" unique="true" columns="property_group_id"/>
+      <index name="catalog_productpropertyvalue_6bb837ff" unique="true" columns="property_id"/>
+      <index name="catalog_productpropertyvalue_9bea82de" unique="true" columns="product_id"/>
+      <index name="catalog_productpropertyvalue_product_id_3dad8a29_uniq" unique="true" columns="product_id,property_id,property_group_id,value,type"/>
+    </table>
+    <table name="catalog_productspropertiesrelation" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_productspropertiesrelation_1" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_productspropertiesrelation_2" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="catalog_productspropertiesrelation_6bb837ff" unique="true" columns="property_id"/>
+      <index name="catalog_productspropertiesrelation_9bea82de" unique="true" columns="product_id"/>
+      <index name="catalog_productspropertiesrelation_product_id_f7d6b0f0_uniq" unique="true" columns="product_id,property_id"/>
+    </table>
+    <table name="catalog_property" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="unit" sqlType="VARCHAR(15)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="display_on_product" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="local" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="variants" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="filterable" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="configurable" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="type" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="display_price" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="add_price" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="unit_min" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="unit_max" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="unit_step" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="decimal_places" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="required" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="step_type" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="step" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="uid" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="catalog_propertygroup" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="uid" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="catalog_propertygroup_products" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="propertygroup_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_propertygroup_products_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_catalog_propertygroup_products_2" columns="propertygroup_id" ref-table="catalog_propertygroup" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="catalog_propertyoption" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="uid" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_catalog_propertyoption_1" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="catalog_staticblock" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="display_files" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="html" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="SMALLINT" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="core_action" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(40)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="link" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="parent_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_core_action_1" columns="parent_id" ref-table="core_action" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_core_action_2" columns="group_id" ref-table="core_actiongroup" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="core_action_6be37982" unique="true" columns="parent_id"/>
+      <index name="core_action_0e939a4f" unique="true" columns="group_id"/>
+    </table>
+    <table name="core_actiongroup" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="core_application" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="version" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="core_country" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="code" sqlType="VARCHAR(2)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="core_shop" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="shop_owner" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="from_email" sqlType="VARCHAR(254)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="notification_emails" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="product_cols" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_rows" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="category_cols" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="google_analytics_id" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="ga_site_tracking" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="ga_ecommerce_tracking" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="use_international_currency_code" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price_calculator" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="checkout_type" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="confirm_toc" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="meta_title" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_keywords" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="default_country_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="delivery_time_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="static_block_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="image" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_core_shop_1" columns="static_block_id" ref-table="catalog_staticblock" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_core_shop_2" columns="delivery_time_id" ref-table="catalog_deliverytime" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_core_shop_3" columns="default_country_id" ref-table="core_country" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="core_shop_0b071eca" unique="true" columns="static_block_id"/>
+      <index name="core_shop_f0bc8d5b" unique="true" columns="delivery_time_id"/>
+      <index name="core_shop_d3ee9192" unique="true" columns="default_country_id"/>
+    </table>
+    <table name="core_shop_invoice_countries" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shop_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="country_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_core_shop_invoice_countries_1" columns="country_id" ref-table="core_country" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_core_shop_invoice_countries_2" columns="shop_id" ref-table="core_shop" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="core_shop_invoice_countries_93bfec8a" unique="true" columns="country_id"/>
+      <index name="core_shop_invoice_countries_9f32e8f6" unique="true" columns="shop_id"/>
+      <index name="core_shop_invoice_countries_shop_id_054453d0_uniq" unique="true" columns="shop_id,country_id"/>
+    </table>
+    <table name="core_shop_shipping_countries" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shop_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="country_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_core_shop_shipping_countries_1" columns="country_id" ref-table="core_country" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_core_shop_shipping_countries_2" columns="shop_id" ref-table="core_shop" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="core_shop_shipping_countries_93bfec8a" unique="true" columns="country_id"/>
+      <index name="core_shop_shipping_countries_9f32e8f6" unique="true" columns="shop_id"/>
+      <index name="core_shop_shipping_countries_shop_id_b04622c9_uniq" unique="true" columns="shop_id,country_id"/>
+    </table>
+    <table name="criteria_cartpricecriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_cartpricecriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_combinedlengthandgirthcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_combinedlengthandgirthcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_countrycriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_countrycriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_countrycriterion_value" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="countrycriterion_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="country_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_criteria_countrycriterion_value_1" columns="country_id" ref-table="core_country" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_criteria_countrycriterion_value_2" columns="countrycriterion_id" ref-table="criteria_countrycriterion" ref-schema="" ref-catalog="" ref-columns="criterion_ptr_id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="criteria_countrycriterion_value_93bfec8a" unique="true" columns="country_id"/>
+      <index name="criteria_countrycriterion_value_abdbc7a0" unique="true" columns="countrycriterion_id"/>
+      <index name="criteria_countrycriterion_value_countrycriterion_id_9fc442e9_uniq" unique="true" columns="countrycriterion_id,country_id"/>
+    </table>
+    <table name="criteria_criterion" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="sub_type" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="operator" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_criteria_criterion_1" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="criteria_criterion_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="criteria_heightcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_heightcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_lengthcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_lengthcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_paymentmethodcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_paymentmethodcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_paymentmethodcriterion_value" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="paymentmethodcriterion_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="paymentmethod_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_criteria_paymentmethodcriterion_value_1" columns="paymentmethod_id" ref-table="payment_paymentmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_criteria_paymentmethodcriterion_value_2" columns="paymentmethodcriterion_id" ref-table="criteria_paymentmethodcriterion" ref-schema="" ref-catalog="" ref-columns="criterion_ptr_id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="criteria_paymentmethodcriterion_value_e2ad63d9" unique="true" columns="paymentmethod_id"/>
+      <index name="criteria_paymentmethodcriterion_value_9effbe92" unique="true" columns="paymentmethodcriterion_id"/>
+      <index name="criteria_paymentmethodcriterion_value_paymentmethodcriterion_id_275c5416_uniq" unique="true" columns="paymentmethodcriterion_id,paymentmethod_id"/>
+    </table>
+    <table name="criteria_shippingmethodcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_shippingmethodcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_shippingmethodcriterion_value" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shippingmethodcriterion_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shippingmethod_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_criteria_shippingmethodcriterion_value_1" columns="shippingmethod_id" ref-table="shipping_shippingmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_criteria_shippingmethodcriterion_value_2" columns="shippingmethodcriterion_id" ref-table="criteria_shippingmethodcriterion" ref-schema="" ref-catalog="" ref-columns="criterion_ptr_id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="criteria_shippingmethodcriterion_value_f3c67d8a" unique="true" columns="shippingmethod_id"/>
+      <index name="criteria_shippingmethodcriterion_value_dec7f62f" unique="true" columns="shippingmethodcriterion_id"/>
+      <index name="criteria_shippingmethodcriterion_value_shippingmethodcriterion_id_f48f524f_uniq" unique="true" columns="shippingmethodcriterion_id,shippingmethod_id"/>
+    </table>
+    <table name="criteria_weightcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_weightcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="criteria_widthcriterion" schema="" catalog="" type="TABLE">
+      <column name="criterion_ptr_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <primary-key columns="criterion_ptr_id"/>
+      <foreign-key name="#FAKE_criteria_widthcriterion_1" columns="criterion_ptr_id" ref-table="criteria_criterion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="customer_bankaccount" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="account_number" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="bank_identification_code" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="bank_name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="depositor" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="customer_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_customer_bankaccount_1" columns="customer_id" ref-table="customer_customer" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="customer_bankaccount_cb24373b" unique="true" columns="customer_id"/>
+    </table>
+    <table name="customer_creditcard" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="type" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="owner" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="number" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="expiration_date_month" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="expiration_date_year" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="customer_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_customer_creditcard_1" columns="customer_id" ref-table="customer_customer" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="customer_creditcard_cb24373b" unique="true" columns="customer_id"/>
+    </table>
+    <table name="customer_customer" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="session" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="dsa_object_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="ia_object_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="dia_object_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="ia_content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="sa_content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="selected_bank_account_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="selected_country_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="selected_credit_card_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="selected_payment_method_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="selected_shipping_method_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="sa_object_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_customer_customer_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_2" columns="selected_shipping_method_id" ref-table="shipping_shippingmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_3" columns="selected_payment_method_id" ref-table="payment_paymentmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_4" columns="selected_credit_card_id" ref-table="customer_creditcard" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_5" columns="selected_country_id" ref-table="core_country" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_6" columns="selected_bank_account_id" ref-table="customer_bankaccount" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_7" columns="sa_content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_customer_customer_8" columns="ia_content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="customer_customer_e8701ad4" unique="true" columns="user_id"/>
+      <index name="customer_customer_22b54412" unique="true" columns="selected_shipping_method_id"/>
+      <index name="customer_customer_c61bf2dc" unique="true" columns="selected_payment_method_id"/>
+      <index name="customer_customer_1f0812f7" unique="true" columns="selected_credit_card_id"/>
+      <index name="customer_customer_178cf44b" unique="true" columns="selected_country_id"/>
+      <index name="customer_customer_2c71da27" unique="true" columns="selected_bank_account_id"/>
+      <index name="customer_customer_6f8dbd4b" unique="true" columns="sa_content_type_id"/>
+      <index name="customer_customer_f53d1c1c" unique="true" columns="ia_content_type_id"/>
+    </table>
+    <table name="customer_tax_customertax" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="rate" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="discounts_discount" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="type" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="sku" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="tax_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="sums_up" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_discounts_discount_1" columns="tax_id" ref-table="tax_tax" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="discounts_discount_59fc14e7" unique="true" columns="tax_id"/>
+    </table>
+    <table name="discounts_discount_products" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="discount_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_discounts_discount_products_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_discounts_discount_products_2" columns="discount_id" ref-table="discounts_discount" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="discounts_discount_products_9bea82de" unique="true" columns="product_id"/>
+      <index name="discounts_discount_products_90696c95" unique="true" columns="discount_id"/>
+      <index name="discounts_discount_products_discount_id_b97f6e0f_uniq" unique="true" columns="discount_id,product_id"/>
+    </table>
+    <table name="django_admin_log" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="object_id" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="object_repr" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="action_flag" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="change_message" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="action_time" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_django_admin_log_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_django_admin_log_2" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="django_admin_log_e8701ad4" unique="true" columns="user_id"/>
+      <index name="django_admin_log_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="django_content_type" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="app_label" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="model" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <index name="django_content_type_app_label_76bd3d3b_uniq" unique="true" columns="app_label,model"/>
+    </table>
+    <table name="django_migrations" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="app" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="applied" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_redirect" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="site_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="old_path" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="new_path" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_django_redirect_1" columns="site_id" ref-table="django_site" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="django_redirect_91a0b591" unique="true" columns="old_path"/>
+      <index name="django_redirect_9365d6e7" unique="true" columns="site_id"/>
+      <index name="django_redirect_site_id_ac5dd16b_uniq" unique="true" columns="site_id,old_path"/>
+    </table>
+    <table name="django_session" schema="" catalog="" type="TABLE">
+      <column name="session_key" sqlType="VARCHAR(40)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="session_data" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="expire_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="session_key"/>
+      <index name="django_session_de54fa62" unique="true" columns="expire_date"/>
+    </table>
+    <table name="django_site" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="domain" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="export_categoryoption" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="variants_option" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="category_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="export_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_export_categoryoption_1" columns="export_id" ref-table="export_export" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_export_categoryoption_2" columns="category_id" ref-table="catalog_category" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="export_categoryoption_eebf80ab" unique="true" columns="export_id"/>
+      <index name="export_categoryoption_b583a629" unique="true" columns="category_id"/>
+    </table>
+    <table name="export_export" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="variants_option" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="script_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_export_export_1" columns="script_id" ref-table="export_script" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="export_export_a19ff0c0" unique="true" columns="script_id"/>
+    </table>
+    <table name="export_export_products" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="export_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_export_export_products_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_export_export_products_2" columns="export_id" ref-table="export_export" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="export_export_products_9bea82de" unique="true" columns="product_id"/>
+      <index name="export_export_products_eebf80ab" unique="true" columns="export_id"/>
+      <index name="export_export_products_export_id_46139364_uniq" unique="true" columns="export_id,product_id"/>
+    </table>
+    <table name="export_script" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="module" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="method" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <index name="export_script_module_0171c373_uniq" unique="true" columns="module,method"/>
+    </table>
+    <table name="lfs_order_numbers_ordernumbergenerator" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="last" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="format" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="lfs_paypal_paypalordertransaction" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="order_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_lfs_paypal_paypalordertransaction_1" columns="order_id" ref-table="order_order" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="lfs_paypal_paypalordertransaction_ipn" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="paypalordertransaction_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="paypalipn_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_lfs_paypal_paypalordertransaction_ipn_1" columns="paypalipn_id" ref-table="paypal_ipn" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_lfs_paypal_paypalordertransaction_ipn_2" columns="paypalordertransaction_id" ref-table="lfs_paypal_paypalordertransaction" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="lfs_paypal_paypalordertransaction_ipn_a0c3aaed" unique="true" columns="paypalipn_id"/>
+      <index name="lfs_paypal_paypalordertransaction_ipn_af1dbb4b" unique="true" columns="paypalordertransaction_id"/>
+      <index name="lfs_paypal_paypalordertransaction_ipn_paypalordertransaction_id_d69a5652_uniq" unique="true" columns="paypalordertransaction_id,paypalipn_id"/>
+    </table>
+    <table name="manufacturer_manufacturer" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="short_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active_formats" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_rows" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_cols" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="meta_title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_keywords" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="image" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="marketing_featuredproduct" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_marketing_featuredproduct_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="marketing_featuredproduct_9bea82de" unique="true" columns="product_id"/>
+    </table>
+    <table name="marketing_orderratingmail" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="send_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="order_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_marketing_orderratingmail_1" columns="order_id" ref-table="order_order" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="marketing_orderratingmail_69dfcb07" unique="true" columns="order_id"/>
+    </table>
+    <table name="marketing_productsales" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="sales" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_marketing_productsales_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="marketing_productsales_9bea82de" unique="true" columns="product_id"/>
+    </table>
+    <table name="marketing_topseller" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_marketing_topseller_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="marketing_topseller_9bea82de" unique="true" columns="product_id"/>
+    </table>
+    <table name="order_order" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="number" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="session" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="created" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="state" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="state_modified" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="tax" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="customer_firstname" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="customer_lastname" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="customer_email" sqlType="VARCHAR(75)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="sa_object_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="ia_object_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shipping_price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="shipping_tax" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="payment_price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="payment_tax" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="account_number" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="bank_identification_code" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="bank_name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="depositor" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="voucher_number" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="voucher_price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="voucher_tax" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="message" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="pay_link" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="uuid" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="requested_delivery_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="ia_content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="payment_method_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="sa_content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shipping_method_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_order_order_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_order_order_2" columns="shipping_method_id" ref-table="shipping_shippingmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_order_order_3" columns="sa_content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_order_order_4" columns="payment_method_id" ref-table="payment_paymentmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_order_order_5" columns="ia_content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="order_order_e8701ad4" unique="true" columns="user_id"/>
+      <index name="order_order_a5b3cd33" unique="true" columns="shipping_method_id"/>
+      <index name="order_order_6f8dbd4b" unique="true" columns="sa_content_type_id"/>
+      <index name="order_order_f4292d53" unique="true" columns="payment_method_id"/>
+      <index name="order_order_f53d1c1c" unique="true" columns="ia_content_type_id"/>
+    </table>
+    <table name="order_orderdeliverytime" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="min" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="max" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="unit" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="order_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_order_orderdeliverytime_1" columns="order_id" ref-table="order_order" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="order_orderitem" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price_net" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="price_gross" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="tax" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="product_amount" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="product_sku" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="product_name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="product_price_net" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="product_price_gross" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="product_tax" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="order_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_order_orderitem_1" columns="product_id" ref-table="catalog_product" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_order_orderitem_2" columns="order_id" ref-table="order_order" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="order_orderitem_9bea82de" unique="true" columns="product_id"/>
+      <index name="order_orderitem_69dfcb07" unique="true" columns="order_id"/>
+    </table>
+    <table name="order_orderitempropertyvalue" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="order_item_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="property_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_order_orderitempropertyvalue_1" columns="property_id" ref-table="catalog_property" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_order_orderitempropertyvalue_2" columns="order_item_id" ref-table="order_orderitem" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="order_orderitempropertyvalue_6bb837ff" unique="true" columns="property_id"/>
+      <index name="order_orderitempropertyvalue_2374a8a2" unique="true" columns="order_item_id"/>
+    </table>
+    <table name="page_page" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="exclude_from_navigation" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="short_text" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="body" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="file" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_title" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_keywords" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="meta_description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="payment_paymentmethod" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="priority" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="note" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="image" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="deletable" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="module" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="type" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="tax_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_payment_paymentmethod_1" columns="tax_id" ref-table="tax_tax" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="payment_paymentmethod_59fc14e7" unique="true" columns="tax_id"/>
+    </table>
+    <table name="payment_paymentmethodprice" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="priority" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="payment_method_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_payment_paymentmethodprice_1" columns="payment_method_id" ref-table="payment_paymentmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="payment_paymentmethodprice_f4292d53" unique="true" columns="payment_method_id"/>
+    </table>
+    <table name="paypal_ipn" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="business" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="charset" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="custom" sqlType="VARCHAR(256)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="notify_version" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="parent_txn_id" sqlType="VARCHAR(19)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="receiver_email" sqlType="VARCHAR(254)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="receiver_id" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="residence_country" sqlType="VARCHAR(2)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="test_ipn" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="txn_id" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="verify_sign" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_country" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_city" sqlType="VARCHAR(40)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_country_code" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_name" sqlType="VARCHAR(128)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_state" sqlType="VARCHAR(40)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_status" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_street" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="address_zip" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="contact_phone" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="first_name" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="payer_business_name" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="payer_email" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="payer_id" sqlType="VARCHAR(13)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="auth_amount" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="auth_exp" sqlType="VARCHAR(28)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="auth_id" sqlType="VARCHAR(19)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="auth_status" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="exchange_rate" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="invoice" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="item_name" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="item_number" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="mc_currency" sqlType="VARCHAR(32)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="mc_fee" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="mc_gross" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="mc_handling" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="mc_shipping" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="memo" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="num_cart_items" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="option_name1" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="option_name2" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="payer_status" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="payment_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="payment_gross" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="payment_status" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="payment_type" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="pending_reason" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="protection_eligibility" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="quantity" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="reason_code" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="remaining_settle" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="settle_amount" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="settle_currency" sqlType="VARCHAR(32)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="shipping" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="shipping_method" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="tax" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="transaction_entity" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="auction_buyer_id" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="auction_closing_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="auction_multi_item" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="for_auction" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="amount" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="amount_per_cycle" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="initial_payment_amount" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="next_payment_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="outstanding_balance" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="payment_cycle" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="period_type" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="product_name" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="product_type" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="profile_status" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="recurring_payment_id" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="rp_invoice_id" sqlType="VARCHAR(127)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="time_created" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="amount1" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="amount2" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="amount3" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="mc_amount1" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="mc_amount2" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="mc_amount3" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="password" sqlType="VARCHAR(24)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="period1" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="period2" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="period3" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="reattempt" sqlType="VARCHAR(1)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="recur_times" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="recurring" sqlType="VARCHAR(1)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="retry_at" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="subscr_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="subscr_effective" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="subscr_id" sqlType="VARCHAR(19)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="username" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="case_creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="case_id" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="case_type" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="receipt_id" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="currency_code" sqlType="VARCHAR(32)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="handling_amount" sqlType="DECIMAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="transaction_subject" sqlType="VARCHAR(256)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="ipaddress" sqlType="CHAR(39)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="flag" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="flag_code" sqlType="VARCHAR(16)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="flag_info" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="query" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="response" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="created_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="updated_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="from_view" sqlType="VARCHAR(6)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="mp_id" sqlType="VARCHAR(128)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="option_selection1" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="option_selection2" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="txn_type" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <index name="paypal_ipn_8e113603" unique="true" columns="txn_id"/>
+    </table>
+    <table name="portlet_averageratingportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_cartportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_categoriesportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="start_level" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="expand_level" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_deliverytimeportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_featuredportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="limit" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="current_category" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="slideshow" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_filterportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="show_product_filters" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="show_price_filters" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="show_manufacturer_filters" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_forsaleportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="limit" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="current_category" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="slideshow" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_latestportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="limit" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="current_category" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="slideshow" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_pagesportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_recentproductsportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_relatedproductsportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_textportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="text" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlet_topsellerportlet" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="title" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="limit" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlets_portletassignment" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="portlet_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="position" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="portlet_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="slot_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_portlets_portletassignment_1" columns="slot_id" ref-table="portlets_slot" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_portlets_portletassignment_2" columns="portlet_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_portlets_portletassignment_3" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="portlets_portletassignment_717c1a74" unique="true" columns="slot_id"/>
+      <index name="portlets_portletassignment_54b930e7" unique="true" columns="portlet_type_id"/>
+      <index name="portlets_portletassignment_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="portlets_portletblocking" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="slot_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_portlets_portletblocking_1" columns="slot_id" ref-table="portlets_slot" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_portlets_portletblocking_2" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="portlets_portletblocking_717c1a74" unique="true" columns="slot_id"/>
+      <index name="portlets_portletblocking_417f1b1c" unique="true" columns="content_type_id"/>
+      <index name="portlets_portletblocking_slot_id_4096d8df_uniq" unique="true" columns="slot_id,content_id,content_type_id"/>
+    </table>
+    <table name="portlets_portletregistration" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="type" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="portlets_slot" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="reviews_review" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="content_id" sqlType="INTEGER UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="session_id" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="user_name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="user_email" sqlType="VARCHAR(254)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="comment" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="score" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="ip_address" sqlType="CHAR(39)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_reviews_review_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_reviews_review_2" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="reviews_review_e8701ad4" unique="true" columns="user_id"/>
+      <index name="reviews_review_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="shipping_shippingmethod" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="priority" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="note" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="image" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="price_calculator" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="delivery_time_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="tax_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_shipping_shippingmethod_1" columns="tax_id" ref-table="tax_tax" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_shipping_shippingmethod_2" columns="delivery_time_id" ref-table="catalog_deliverytime" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="shipping_shippingmethod_59fc14e7" unique="true" columns="tax_id"/>
+      <index name="shipping_shippingmethod_f0bc8d5b" unique="true" columns="delivery_time_id"/>
+    </table>
+    <table name="shipping_shippingmethodprice" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="priority" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="shipping_method_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_shipping_shippingmethodprice_1" columns="shipping_method_id" ref-table="shipping_shippingmethod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="shipping_shippingmethodprice_a5b3cd33" unique="true" columns="shipping_method_id"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="supplier_supplier" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="slug" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_supplier_supplier_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="supplier_supplier_e8701ad4" unique="true" columns="user_id"/>
+    </table>
+    <table name="tax_tax" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="rate" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="description" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="voucher_voucher" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="number" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="start_date" sqlType="DATE" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="effective_from" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="end_date" sqlType="DATE" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="kind_of" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="used_amount" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="last_used_date" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="limit" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="creator_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="tax_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="sums_up" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_voucher_voucher_1" columns="tax_id" ref-table="tax_tax" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_voucher_voucher_2" columns="group_id" ref-table="voucher_vouchergroup" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_voucher_voucher_3" columns="creator_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="voucher_voucher_59fc14e7" unique="true" columns="tax_id"/>
+      <index name="voucher_voucher_0e939a4f" unique="true" columns="group_id"/>
+      <index name="voucher_voucher_3700153c" unique="true" columns="creator_id"/>
+    </table>
+    <table name="voucher_vouchergroup" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="creation_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="creator_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_voucher_vouchergroup_1" columns="creator_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="voucher_voucheroptions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="number_prefix" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="number_suffix" sqlType="VARCHAR(20)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="number_length" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="number_letters" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+  </data-source>
+</component>

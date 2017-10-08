@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf6961b9-4faf-41f3-b857-8455c3dc53d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/mytheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Merriweather-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Merriweather-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Montserrat-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Montserrat-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/2co.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-company-banner-title-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-company-banner-title-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-company-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-personal-banner-title-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-personal-banner-title-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-personal-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/ae.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/anchor-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/back-pack.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/backpack.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner1-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner2-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner3-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/bershka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-product-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-product-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-product-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cart-icon-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cart-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/clock-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/envelope-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/featured-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/featured-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/featured-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Afghanistan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Albania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Algeria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Andorra.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Antigua-and-Barbuda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Argentina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Armenia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Australia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Austria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Azerbaijan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bahamas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bahrain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bangladesh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Barbados.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Belarus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Belgium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Belize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Benin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bhutan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bolivia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bosnia-and-Herzegovina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Botswana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Brazil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Brunei.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bulgaria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Burkina-Faso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Burundi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cambodia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cameroon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Canada.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cape-Verde.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Central-African-Republic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Chad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Chile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/China.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Colombia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Comoros.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Congo-(Democratic).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Congo-(Republic).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Costa-Rica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cote-d'Ivoire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Croatia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cuba.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cyprus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Czech-Republic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Denmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Djibouti.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Dominica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Dominican-Republic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/East-Timor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ecuador.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Egypt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/El-Salvador.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Equatorial-Guinea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Eritrea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Estonia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ethiopia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Fiji.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Finland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/France.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Gabon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Gambia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Georgia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Germany.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ghana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Grecee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Grenada.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guatemala.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guinea-Bissau.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guinea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guyana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Haiti.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Honduras.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Hungary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Iceland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/India.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Indonesia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Iran.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Iraq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ireland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Israel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Italy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Jamaica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Japan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Jordan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kazakhstan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kenya.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kiribati.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Korea,-North.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Korea,-South.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kosovo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kuwait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kyrgyzstan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Laos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Latvia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Lebanon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Lesotho.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Liberia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Libya.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Liechtenstein.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Lithuania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Luxembourg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Macedonia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Madagascar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Malawi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Malaysia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Maldives.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mali.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Malta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Marshall-Islands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mauritania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mauritius.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mexico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Micronesia-(Federated).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Moldova.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Monaco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mongolia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Montenegro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Morocco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mozambique.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Myanmar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Namibia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nauru.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nepal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Netherlands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/New-Zealand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nicaragua.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Niger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nigeria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Norway.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Oman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Pakistan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Palau.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Panama.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Papua-New-Guinea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Paraguay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Peru.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Philippines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Poland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Portugal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Qatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Romania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Russia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Rwanda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saint-Kitts-and-Nevis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saint-Lucia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saint-Vincent-and-the-Grenadines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Samoa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/San-Marino.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sao-Tome-and-Principe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saudi-Arabia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Senegal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Serbia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Seychelles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sierra-Leone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Singapore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Slovakia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Slovenia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Solomon-Islands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Somalia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/South-Africa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/South-Sudan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Spain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sri-Lanka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sudan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Suriname.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Swaziland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sweden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Switzerland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Syria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Taiwan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tajikistan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tanzania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Thailand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Togo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tonga.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Trinidad-and-Tobago.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tunisia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Turkey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Turkmenistan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tuvalu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Uganda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ukraine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/United-Arab-Emirates.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/United-Kingdom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/United-States-of-America.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Uruguay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Uzbekistan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Vanuatu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Vatican-City.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Venezuela.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Vietnam.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Yemen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Zambia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Zimbabwe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/greengarden.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/gw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/heart-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/hm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-1-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-1-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-1-content-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow1-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow1-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow2-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow2-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide3-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide3-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide3-content-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide1-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide3-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide3-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide3-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide3-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slide1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide1-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide3-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide3-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slide2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slide2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/kid-clothing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/lonelychair.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/mango.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/medal-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/men-clothing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/new-in-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/new-in-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/new-in-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/our-founder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-section-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-section-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-section-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-sections.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-details-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-details-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-details-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-1-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-2-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-3-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-4-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-5-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-6-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-7-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-8-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-1-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-2-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/pull-bear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/quote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/quote2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/recyclebags.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/repeat-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/right-banner-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/saleoff-box.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/search-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/shoes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/shop-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/skrill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide1-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide1-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide2-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide2-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide3-content-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide3-content-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slideshow1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slideshow2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slideshow3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/sprinkles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/testimonial-avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/testimonial-avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/thebluea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/toprated-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/toprated-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/toprated-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-cart-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-diamond-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-gift-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-search-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/whitesneakers.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/women-clothing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/world-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/wu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/zara.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomOverThumbBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/carouselLeftNav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/carouselRightNav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/leftNavOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/leftNavON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/rightNavOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/rightNavON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/scrollerFaceOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/scrollerFaceON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/textBg_transparency.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/thumbActiveArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/hand.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomOverThumbBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/leftNavOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/leftNavON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/rightNavOFF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/rightNavON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/textBg_transparency.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LFS.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/animate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounce.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceIn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInDown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInUp.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOut.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutDown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutUp.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeIn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInDown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInDownBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInLeftBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInRightBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInUp.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInUpBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOut.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutDown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutDownBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutLeftBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutRightBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutUp.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutUpBig.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flash.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipInX.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipInY.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipOutX.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipOutY.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/hinge.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/lightSpeedIn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/lightSpeedOut.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/pulse.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rollIn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rollOut.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateIn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInDownLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInDownRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInUpLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInUpRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOut.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutDownLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutDownRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutUpLeft.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutUpRight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/shake.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/swing.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/tada.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/wiggle.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/wobble.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/elements.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/_hacks.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/_mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/_options.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_bob.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_bounce-in.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_bounce-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_buzz-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_buzz.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_float.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_grow-rotate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_grow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_hang.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pop.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pulse-grow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pulse-shrink.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pulse.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_push.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_rotate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_shrink.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_sink.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_skew-backward.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_skew-forward.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_skew.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-bottom.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-horizontal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-skew.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-to-bottom-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-to-top-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-top.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-vertical.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_back-pulse.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-bottom.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-top.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_fade.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_radial-in.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_radial-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_rectangle-in.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_rectangle-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-in-horizontal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-in-vertical.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-out-horizontal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-out-vertical.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-bottom.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-top.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_border-fade.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_hollow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_outline-in.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_outline-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-from-center.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-from-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-from-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-reveal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_reveal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_ripple-in.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_ripple-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_round-corners.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_trim.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-from-center.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-from-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-from-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-reveal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-bottom-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-bottom-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-top-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-top-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-back.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-bob.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-bounce-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-bounce.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-buzz-out.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-buzz.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-down.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-drop.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-fade.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-float-away.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-float.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-forward.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-grow-rotate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-grow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-hang.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pop.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pulse-grow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pulse-shrink.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pulse.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-push.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-rotate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-shrink.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-sink-away.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-sink.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-spin.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-up.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-wobble-horizontal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-wobble-vertical.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_box-shadow-inset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_box-shadow-outset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_float-shadow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_glow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_grow-shadow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_shadow-radial.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_shadow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-bottom.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-bottom.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-top.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-left.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-right.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-top.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/hover.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/styles.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/allinone_bannerRotator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/easyResponsiveTabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/fancySelect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/gmaps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-asPieProgress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.mixitup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.parallax-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.raty-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.ui.touch-punch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/less.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/prefixfree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/respond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/responsive-accordion.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/salvattore.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/allinone_bannerRotator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/easy-responsive-tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/fancySelect.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/flat-form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/jquery.fancybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/minimal-menu-ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/minimal-menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/progress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/responsive-accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/mytheme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/templates/lfs/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/templates/lfs/shop/shop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/views.py" />
+    </list>
+    <ignored path="LFS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Sqlite (Xerial) - db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="LFS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="shop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/shop/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6940063">
+              <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LFS/urls.py" />
+        <option value="$PROJECT_DIR$/LFS/settings.py" />
+        <option value="$PROJECT_DIR$/mytheme/templates/lfs/portlets/cart.html" />
+        <option value="$PROJECT_DIR$/mytheme/templates/lfs/shop/shop.html" />
+        <option value="$PROJECT_DIR$/mytheme/templates/lfs/base.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/mytheme" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: mytheme.templates.lfs.portlets.cart.html">
+    <configuration default="false" name="Test: mytheme.templates.lfs.portlets.cart.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="mytheme.templates.lfs.portlets.cart.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LFS" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="LFS.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LFS" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django server.LFS" />
+      <item index="1" class="java.lang.String" itemvalue="Django tests.Test: mytheme.templates.lfs.portlets.cart.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: mytheme.templates.lfs.portlets.cart.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf6961b9-4faf-41f3-b857-8455c3dc53d6" name="Default" comment="" />
+      <created>1507296149144</created>
+      <option name="number" value="Default" />
+      <updated>1507296149144</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__mytheme_templates_lfs_portlets_cart_html - 2017.10.06 at 23h 52m 45s.xml">
+      <configuration name="Test: mytheme.templates.lfs.portlets.cart.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21912351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2812749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2565737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42194745" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211748" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211748" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26275116" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21912351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27649403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2565737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7936d162/d4560b3e-d18f-4111-8187-4a947907a76f/auth_user_user_permissions">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7936d162/d4560b3e-d18f-4111-8187-4a947907a76f/auth_user_groups">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7936d162/d4560b3e-d18f-4111-8187-4a947907a76f/auth_user">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7936d162/d4560b3e-d18f-4111-8187-4a947907a76f/cart_cart">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7936d162/d4560b3e-d18f-4111-8187-4a947907a76f/core_shop">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytheme/static/mytheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/mytheme/mytheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/mytheme/assets/styles/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LFS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84563756">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LFS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="156" column="7" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
+          <folding>
+            <element signature="e#305#314#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/topseller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/text_portlet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/customer/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/customer/data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/customer/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/shipping/shipping_portlet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/shipping/shipping_tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/shop/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/shop/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.477966">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/shop/lfs_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/customer/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/manufacturers/manufacturers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/order/lfs_order_tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/page/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.148148">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/page/pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/portlet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/featured.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/delivery_time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/average_rating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/category_children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18305084">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/forsale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34745762">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/cart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26256078">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/checkout/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/manufacturer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/page/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/search/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_contact/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/core/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/portlets/latest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7694916">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/lfs_theme/templates/lfs/shop/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42711863">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/shop/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6940063">
+          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
