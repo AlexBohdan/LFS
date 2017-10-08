@@ -2,834 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf6961b9-4faf-41f3-b857-8455c3dc53d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/mytheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Merriweather-Italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Merriweather-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Montserrat-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/Montserrat-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/2co.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-company-banner-title-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-company-banner-title-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-company-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-personal-banner-title-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-personal-banner-title-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/about-personal-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/anchor-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/back-pack.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/backpack.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner1-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner2-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner3-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banner3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/banners.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/bershka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-product-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-product-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/big-product-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/blog-img-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cart-icon-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cart-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/clock-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/cmt-avatar-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/envelope-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/featured-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/featured-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/featured-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Afghanistan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Albania.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Algeria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Andorra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Antigua-and-Barbuda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Argentina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Armenia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Australia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Austria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Azerbaijan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bahamas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bahrain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bangladesh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Barbados.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Belarus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Belgium.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Belize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Benin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bhutan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bolivia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bosnia-and-Herzegovina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Botswana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Brazil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Brunei.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Bulgaria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Burkina-Faso.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Burundi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cambodia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cameroon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Canada.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cape-Verde.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Central-African-Republic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Chad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Chile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/China.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Colombia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Comoros.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Congo-(Democratic).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Congo-(Republic).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Costa-Rica.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cote-d'Ivoire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Croatia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cuba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Cyprus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Czech-Republic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Denmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Djibouti.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Dominica.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Dominican-Republic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/East-Timor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ecuador.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Egypt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/El-Salvador.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Equatorial-Guinea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Eritrea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Estonia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ethiopia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Fiji.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Finland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/France.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Gabon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Gambia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Georgia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Germany.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ghana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Grecee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Grenada.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guatemala.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guinea-Bissau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guinea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Guyana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Haiti.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Honduras.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Hungary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Iceland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/India.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Indonesia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Iran.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Iraq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ireland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Israel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Italy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Jamaica.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Japan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Jordan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kazakhstan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kenya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kiribati.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Korea,-North.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Korea,-South.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kosovo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kuwait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Kyrgyzstan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Laos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Latvia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Lebanon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Lesotho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Liberia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Libya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Liechtenstein.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Lithuania.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Luxembourg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Macedonia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Madagascar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Malawi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Malaysia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Maldives.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mali.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Malta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Marshall-Islands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mauritania.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mauritius.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mexico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Micronesia-(Federated).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Moldova.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Monaco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mongolia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Montenegro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Morocco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Mozambique.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Myanmar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Namibia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nauru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nepal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Netherlands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/New-Zealand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nicaragua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Niger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Nigeria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Norway.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Oman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Pakistan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Palau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Panama.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Papua-New-Guinea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Paraguay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Peru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Philippines.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Poland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Portugal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Qatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Romania.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Russia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Rwanda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saint-Kitts-and-Nevis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saint-Lucia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saint-Vincent-and-the-Grenadines.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Samoa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/San-Marino.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sao-Tome-and-Principe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Saudi-Arabia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Senegal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Serbia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Seychelles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sierra-Leone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Singapore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Slovakia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Slovenia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Solomon-Islands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Somalia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/South-Africa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/South-Sudan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Spain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sri-Lanka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sudan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Suriname.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Swaziland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Sweden.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Switzerland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Syria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Taiwan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tajikistan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tanzania.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Thailand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Togo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tonga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Trinidad-and-Tobago.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tunisia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Turkey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Turkmenistan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Tuvalu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Uganda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Ukraine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/United-Arab-Emirates.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/United-Kingdom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/United-States-of-America.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Uruguay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Uzbekistan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Vanuatu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Vatican-City.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Venezuela.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Vietnam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Yemen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Zambia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/flags/Zimbabwe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/greengarden.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/gw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/heart-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/hm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home-bg-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-1-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide1-2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-1-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-1-content-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slide2-2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow1-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow1-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow2-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home2-slideshow2-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide3-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide3-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slide3-content-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home3-slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide1-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide3-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slide3-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home4-slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide3-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slide3-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home5-slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slide1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home6-slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide1-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide3-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slide3-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home7-slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slide2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slide2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/home8-slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/kid-clothing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/lonelychair.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/mango.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/medal-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/men-clothing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/new-in-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/new-in-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/new-in-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/office-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/our-founder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-section-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-section-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-section-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/parallax-sections.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-details-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-details-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-details-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/portfolio-img-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/prl-img-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-1-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-2-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-3-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-4-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-5-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-6-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-7-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-8-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/product-img-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-1-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-2-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/promotion-banner-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/pull-bear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/quote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/quote2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/recyclebags.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/repeat-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/right-banner-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/saleoff-box.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/search-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/shoes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/shop-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/skrill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide1-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide1-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide2-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide2-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide3-content-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slide3-content-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slideshow1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slideshow2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/slideshow3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/small-product-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/sprinkles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/team-img-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/testimonial-avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/testimonial-avatar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/thebluea.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/toprated-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/toprated-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/toprated-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/visa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-cart-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-diamond-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-gift-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/white-search-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/whitesneakers.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/women-clothing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/works-img-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/world-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/wu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/images/zara.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomNavRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/bottomOverThumbBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/carouselLeftNav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/carouselRightNav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/leftNavOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/leftNavON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/rightNavOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/rightNavON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/scrollerFaceOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/scrollerFaceON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/textBg_transparency.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/elegant/thumbActiveArrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/hand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomNavRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/bottomOverThumbBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/leftNavOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/leftNavON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/rightNavOFF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/rightNavON.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/skins/universal/textBg_transparency.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LFS.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LFS/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/bootstrap/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/animate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounce.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceIn.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInDown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceInUp.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOut.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutDown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/bounceOutUp.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeIn.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInDown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInDownBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInLeftBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInRightBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInUp.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeInUpBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOut.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutDown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutDownBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutLeftBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutRightBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutUp.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/fadeOutUpBig.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flash.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipInX.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipInY.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipOutX.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/flipOutY.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/hinge.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/lightSpeedIn.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/lightSpeedOut.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rollIn.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rollOut.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateIn.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInDownLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInDownRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInUpLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateInUpRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOut.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutDownLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutDownRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutUpLeft.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/rotateOutUpRight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/shake.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/swing.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/tada.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/wiggle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/animate/source/wobble.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/elements.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/_hacks.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/_mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/_options.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_bob.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_bounce-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_bounce-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_buzz-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_buzz.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_float.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_grow-rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_hang.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pop.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pulse-grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pulse-shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_push.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_sink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_skew-backward.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_skew-forward.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_skew.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-skew.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-to-bottom-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-to-top-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/2d-transitions/_wobble-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_back-pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_bounce-to-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_radial-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_radial-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_rectangle-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_rectangle-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-in-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-in-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-out-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_shutter-out-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/background-transitions/_sweep-to-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_border-fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_hollow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_outline-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_outline-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-from-center.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-from-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-from-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_overline-reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_ripple-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_ripple-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_round-corners.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_trim.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-from-center.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-from-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-from-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/border-transitions/_underline-reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-bottom-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-bottom-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-top-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/curls/_curl-top-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-back.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-bob.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-bounce-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-bounce.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-buzz-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-buzz.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-down.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-drop.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-float-away.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-float.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-forward.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-grow-rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-hang.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pop.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pulse-grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pulse-shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-push.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-sink-away.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-sink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-spin.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-up.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-wobble-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/icons/_icon-wobble-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_box-shadow-inset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_box-shadow-outset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_float-shadow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_glow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_grow-shadow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_shadow-radial.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/shadow-and-glow-transitions/_shadow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-float-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/effects/speech-bubbles/_bubble-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/hover/hover.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/styles.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/css/helper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/allinone_bannerRotator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/easyResponsiveTabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/fancySelect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/gmaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-asPieProgress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/external/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery-ui-1.11.4/jquery-ui.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.countdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.mixitup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.mousewheel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.parallax-scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.raty-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.ui.touch-punch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/jquery.waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/less.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/prefixfree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/respond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/responsive-accordion.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/scripts/libs/salvattore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/allinone_bannerRotator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/easy-responsive-tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/fancySelect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/flat-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/minimal-menu-ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/minimal-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/progress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/responsive-accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/assets/styles/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/static/mytheme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/templates/lfs/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/templates/lfs/shop/shop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytheme/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LFS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -884,8 +57,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6940063">
-              <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.46687698">
+              <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -965,6 +138,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LFS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LFS" />
@@ -1270,6 +457,13 @@
       <option name="number" value="Default" />
       <updated>1507296149144</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lfs commit">
+      <created>1507446541633</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507446541633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1284,6 +478,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21912351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2812749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2565737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1335,6 +530,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lfs commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lfs commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1413,6 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,6 +634,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84563756">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#637#663#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1723,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mytheme/templates/lfs/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6940063">
-          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.46687698">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
           <folding />
         </state>
       </provider>
